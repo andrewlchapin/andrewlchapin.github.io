@@ -1,6 +1,5 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="en"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A somewhat minimal GitHub Pages site.">
@@ -8,6 +7,58 @@
     <title>Your Site</title>
     <link rel="icon" href="assets/img/mark.svg" type="image/svg+xml">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+      :root {
+        --primary-color: #b89758;
+        --text-color: #1c1c1e;
+        --secondary-text: #636366;
+        --bg-color: #fbfaf8;
+      }
+      body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+      }
+      h1, h2, h3 {
+        font-family: "Playfair Display", "Baskerville", "Georgia", serif;
+        color: #111111;
+      }
+      h2 {
+        margin-top: 2rem;
+        margin-bottom: 0.75rem;
+        border-bottom: 1px solid #e2ded4;
+        padding-bottom: 0.35rem;
+        font-size: 1.35rem;
+      }
+      .subtitle {
+        font-size: 1.05rem;
+        color: #b89758;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+        margin-top: -0.5rem;
+        margin-bottom: 1.5rem;
+      }
+      ul {
+        padding-left: 1.2rem;
+        margin-bottom: 1.5rem;
+      }
+      li {
+        margin-bottom: 0.5rem;
+      }
+      a {
+        color: #8c6d32;
+      }
+      .nav a {
+        text-transform: uppercase;
+        font-size: 0.82rem;
+        letter-spacing: 0.08em;
+      }
+      .nav a[aria-current="page"] {
+        color: #111111;
+        border-bottom: 2px solid var(--primary-color);
+      }
+    </style>
   </head>
   <body>
     <div class="layout">
@@ -20,13 +71,38 @@
 
       <main class="content">
         <article>
-          <img class="mark" src="assets/img/mark.svg" alt="">
-          <h1>Your Name</h1>
-          <p>Hi!</p>
-          <p>This is a minimal GitHub Pages site for notes, projects, and links.</p>
-          <p>Find the code on <a href="https://goatedwebsite.com/default-link">GitHub</a>.</p>
+          <img class="mark" src="assets/img/mark.svg" alt="Andrew Chapin logo">
+          <img alt="" style="max-width: none; width: 278px; height: auto; flex-shrink: 0;" src="assets/uploads/upload-1785020441948-173635506.jpg"><h1>Andrew Chapin</h1>
+          <p class="subtitle">Mechanical Engineering | HVAC Systems &amp; Thermal Fluid Sciences</p>
+          
+          <p>I am a Mechanical Engineering student at California Polytechnic State University, San Luis Obispo, specializing in sustainable HVAC design, thermal-fluid engineering, and mechanical project engineering. My background combines theoretical thermodynamic analysis with extensive hands-on fabrication, technical sales, and leadership experience.</p>
+
+          <p>Currently serving as a Project Engineering Intern at Critchfield Mechanical Inc., I support commercial HVAC design, project estimation, and documentation upkeep rooted in ASHRAE principles. My career goals are focused on driving energy efficiency, sustainable climate control systems, and mechanical innovation in the commercial HVAC and built environment sectors.</p>
+
+          <h2>Education &amp; Academic Credentials</h2>
+          <p><strong>California Polytechnic State University, San Luis Obispo</strong> — B.S. in Mechanical Engineering, Minor in Accounting</p>
+          <p>Expected Graduation: May 2028 | Cumulative GPA: 3.83</p>
+          <p><strong>Relevant Coursework:</strong> Fluid Dynamics, Thermodynamics, SolidWorks &amp; Engineering Drafting, Managerial Accounting</p>
+
+          <h2>HVAC &amp; Leadership Focus</h2>
+          <ul>
+            <li><strong>Cal Poly ASHRAE Student Club:</strong> Elected Treasurer &amp; VP JEDI. Twice placed in national HVAC&amp;R engineering competitions focused on sustainable data center cooling design and thermal innovation.</li>
+            <li><strong>Sales Engineering Competition:</strong> Awarded 2nd place overall for pitching and defending a customized commercial HVAC system design to an industry panel.</li>
+            <li><strong>Engineering Project &amp; Fabrication Lead:</strong> Managed custom metal fabrication projects generating $250K+ in revenue for clients including Cummins, Caterpillar Holt, and Southwest Products.</li>
+          </ul>
+
+          <h2>Core Competencies &amp; Technical Skills</h2>
+          <ul>
+            <li><strong>HVAC &amp; Design Software:</strong> SolidWorks, Revit, Autodesk Inventor, Fusion 360, MATLAB</li>
+            <li><strong>Thermal &amp; Fluid Systems:</strong> ASHRAE Standards, Fluid Dynamics, Thermodynamics, Chiller Pump Systems, Cavitation Detection</li>
+            <li><strong>Fabrication &amp; Field Work:</strong> Precision TIG &amp; MIG Welding, 3D Printing, Electrical Enclosures, Municipal Water System Installations</li>
+            <li><strong>Project Management:</strong> Cost Estimation, T&amp;M Tracking, Managerial Accounting, Client Relations</li>
+          </ul>
+
+          <p>Explore my detailed <a href="projects.html">HVAC &amp; Mechanical Engineering Projects</a> or <a href="contact.html">get in touch</a> to discuss potential engineering opportunities.</p>
         </article>
       </main>
     </div>
-  </body>
-</html>
+  
+
+</body></html>

@@ -1,13 +1,135 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="en"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Projects.">
+    <meta name="description" content="Andrew Chapin - Mechanical Engineering Projects &amp; Portfolio">
     <meta name="theme-color" content="#ffffff">
-    <title>Your Site - Projects</title>
+    <title>Andrew Chapin - Engineering Projects</title>
     <link rel="icon" href="assets/img/mark.svg" type="image/svg+xml">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+      :root {
+        --primary-color: #b89758;
+        --primary-dark: #8c6d32;
+        --text-color: #1c1c1e;
+        --secondary-text: #636366;
+        --bg-light: #fbfaf8;
+        --border-color: #e5e0d8;
+        --card-bg: #ffffff;
+        --accent-bg: #f7f4ee;
+      }
+      body {
+        background-color: var(--bg-light);
+        color: var(--text-color);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+      a {
+        color: var(--primary-dark);
+      }
+      .nav a {
+        text-transform: uppercase;
+        font-size: 0.82rem;
+        letter-spacing: 0.08em;
+      }
+      .nav a[aria-current="page"] {
+        color: #111111;
+        border-bottom: 2px solid var(--primary-color);
+      }
+      article h1 {
+        font-family: "Playfair Display", "Baskerville", "Georgia", serif;
+        font-size: 2.2rem;
+        font-weight: 600;
+        color: #111111;
+        letter-spacing: -0.01em;
+        margin-bottom: 0.3rem;
+      }
+      article h2 {
+        font-family: "Playfair Display", "Baskerville", "Georgia", serif;
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #111111;
+        border-bottom: 1px solid var(--primary-color);
+        padding-bottom: 0.4rem;
+        margin-top: 2.2rem;
+        margin-bottom: 1.2rem;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+      }
+      .contact-subhead {
+        font-size: 0.95rem;
+        color: var(--secondary-text);
+        margin-bottom: 1.75rem;
+        line-height: 1.6;
+      }
+      .contact-subhead a {
+        color: var(--primary-dark);
+        text-decoration: none;
+        border-bottom: 1px solid #e2dacd;
+        transition: all 0.2s ease;
+      }
+      .contact-subhead a:hover {
+        color: var(--text-color);
+        border-bottom-color: var(--text-color);
+      }
+      .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        list-style: none;
+        padding: 0;
+        margin-bottom: 1.75rem;
+      }
+      .skills-list li {
+        background-color: var(--accent-bg);
+        color: #2c251e;
+        border: 1px solid #e2dacd;
+        padding: 6px 14px;
+        border-radius: 4px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+      }
+      .project-card {
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 6px;
+        padding: 1.5rem;
+        margin-bottom: 1.25rem;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.02);
+      }
+      .project-card h3 {
+        margin: 0 0 0.35rem 0;
+        font-family: "Playfair Display", "Baskerville", "Georgia", serif;
+        font-size: 1.2rem;
+        color: #111111;
+      }
+      .project-card .meta {
+        font-size: 0.85rem;
+        color: var(--primary-dark);
+        font-weight: 600;
+        letter-spacing: 0.01em;
+        margin-bottom: 0.85rem;
+      }
+      .project-card ul {
+        margin: 0;
+        padding-left: 1.2rem;
+        color: #3a3a3c;
+        font-size: 0.92rem;
+      }
+      .project-card li {
+        margin-bottom: 0.45rem;
+        line-height: 1.5;
+      }
+      .activities-list {
+        padding-left: 1.2rem;
+        font-size: 0.92rem;
+        color: #3a3a3c;
+      }
+      .activities-list li {
+        margin-bottom: 0.6rem;
+        line-height: 1.5;
+      }
+    </style>
   </head>
   <body>
     <div class="layout">
@@ -20,15 +142,75 @@
 
       <main class="content">
         <article>
-          <h1>Projects</h1>
-          <p>A few placeholders for work worth sharing.</p>
-          <ul class="list">
-            <li><a href="index.html">minimal homepage</a></li>
-            <li><a href="notes.html">code notes</a></li>
-            <li>small experiments</li>
+          <h1>Andrew Chapin</h1>
+          <p class="contact-subhead">
+            Mechanical Engineering Student @ Cal Poly SLO (GPA 3.83) • 
+            <a href="tel:5302206990" class="">(530) 220-6990</a> • 
+            <a href="mailto:andrewl.chapin@gmail.com" class="">andrewl.chapin@gmail.com</a> • 
+            <a href="https://linkedin.com/in/andrew-chapin747" class="">LinkedIn Profile</a>
+          </p>
+
+          <h2>Core Engineering &amp; Technical Skills</h2>
+          <ul class="skills-list">
+            <li>HVAC &amp; ASHRAE Design</li>
+            <li>Revit &amp; Thermal Sizing</li>
+            <li>Fluid Dynamics &amp; Thermodynamics</li>
+            <li>SolidWorks &amp; 3D CAD Modeling</li>
+            <li>Autodesk Inventor &amp; Fusion 360</li>
+            <li>TIG &amp; MIG Welding Fabrication</li>
+            <li>Cavitation Software MVP</li>
+            <li>MATLAB &amp; Data Analysis</li>
+          </ul>
+
+          <h2>Featured Projects &amp; Industry Experience</h2>
+
+          <div class="project-card">
+            <h3>HVAC Systems Design &amp; Data Center Thermal Analysis</h3>
+            <p class="meta">Project Engineering Intern • Critchfield Mechanical Inc. &amp; Cal Poly ASHRAE • June 2026 – Present</p>
+            <ul>
+              <li>Performed HVAC system design, project estimation, and T&amp;M tracking based on ASHRAE principles.</li>
+              <li>Co-authored data center cooling design technical report and presentation focused on sustainable HVAC&amp;R engineering.</li>
+              <li>Awarded 2nd place in school-wide Sales Engineering competition presenting customized commercial HVAC solutions to industry executives.</li>
+            </ul>
+          </div>
+
+          <div class="project-card">
+            <h3>Industrial Chiller Systems &amp; Cavitation Software MVP</h3>
+            <p class="meta">Product Development Intern • Premier Pump and Power (Vancouver, WA) • Summer 2025</p>
+            <ul>
+              <li>Partnered with senior leadership on product expansion roadmap into industrial chiller pump systems.</li>
+              <li>Built functional MVP cavitation detection software incorporating pressure transducers, vibration sensors, and ECU data.</li>
+              <li>Created detailed 3D CAD models and high-fidelity renderings for customer presentations and sales engineering collateral.</li>
+              <li>Evaluated 3D scanning and robotic welding technologies at FABTECH Chicago and presented comprehensive ROI analysis.</li>
+            </ul>
+          </div>
+
+          <div class="project-card">
+            <h3>Industrial Fabrication &amp; Infrastructure Welding</h3>
+            <p class="meta">Fabrication Lead • Chapin Design &amp; Intake Screens Inc. • 2016 – 2025</p>
+            <ul>
+              <li>Led fabrication team producing custom components generating ~$250K in annual revenue for Cummins, Caterpillar Holt, and Southwest Products.</li>
+              <li>Interpreted engineering drawings to weld stainless steel components and custom wiring enclosures for municipal water infrastructure projects.</li>
+            </ul>
+          </div>
+
+          <div class="project-card">
+            <h3>Pilot Safety &amp; Communications Hardware</h3>
+            <p class="meta">Founder • Aria Aerospace (Vancouver, WA) • Apr 2023 – May 2025</p>
+            <ul>
+              <li>Founded aerospace venture designing custom flight safety and communication devices for commercial and general aviation pilots.</li>
+              <li>Managed full lifecycle: CAD design, rapid prototyping, manufacturing, digital marketing, and direct-to-consumer e-commerce.</li>
+            </ul>
+          </div>
+
+          <h2>Leadership &amp; Campus Involvement</h2>
+          <ul class="activities-list">
+            <li><strong>Cal Poly ASHRAE Student Club:</strong> Elected Treasurer &amp; VP JEDI; two-time competitor and winner in annual sustainable HVAC&amp;R engineering challenge.</li>
+            <li><strong>InterHousing Council President &amp; Engineering Senator:</strong> Led complex resident organization for 2,000+ students and advocated for the engineering student body.</li>
           </ul>
         </article>
       </main>
     </div>
-  </body>
-</html>
+  
+
+</body></html>
